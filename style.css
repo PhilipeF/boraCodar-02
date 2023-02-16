@@ -1,13 +1,19 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
 :root {
   --bg-color: #d9cdf7;
   --text-color: #271a45;
 }
 
 body {
-  margin: 0;
-  border: 0;
-  padding: 0;
   background-color: var(--bg-color);
+  height: 100vh;
+  display: grid;
+  place-content: center;
 }
 
 body * {
@@ -21,21 +27,35 @@ h1 {
   font-family: "Crismson Pro";
 }
 
-#btn-360,
 #btn-close {
   display: none;
 }
 
 #app {
   display: flex;
-  border: 1px solid red;
-  height: 100vh;
+  align-items: center;
+  gap: 63px;
 }
 
 #animated {
   display: none;
 }
 
+#product-image {
+  position: relative;
+}
+
+#product-image button {
+  position: absolute;
+  right: 0;
+}
+
+#product-image > img {
+  width: 449px;
+  height: 222px;
+  object-fit: cover;
+}
+
 .product-details {
-  align-items: center;
+  /* align-items: center; */
 }

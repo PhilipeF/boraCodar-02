@@ -40,6 +40,8 @@ Para executar o projeto use a extensão Live Server do vscode.
 
 <h2> 🖼️ Segue abaixo um video da conclusão do desafio</h2>
 
+https://user-images.githubusercontent.com/64853039/221332512-ad0e6975-07d5-4fbd-b668-5867ab2e5b96.mp4
+
 <br>
 <br>
 

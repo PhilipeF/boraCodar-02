@@ -1,4 +1,5 @@
 <div align="center">
+<img src="./assets/preview.jpg">
 <h1> Bora Codar #02 </h1>
 </div>
 <h2>📃 Sobre</h2><p>

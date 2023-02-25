@@ -17,10 +17,10 @@
 <body>
     <div id="app">
         <div id="product-image">
-            <button id="btn-360" onclick="tete()">
+            <button id="btn-360" onclick="toggle()">
                 <img src="./assets/360.svg" alt="botão de girar imagem">
             </button>
-            <button id="btn-close" onclick="tete()">
+            <button id="btn-close" onclick="toggle()">
                 <img src=" ./assets/close.svg" alt="botão de fechar">
             </button>
             <img id="static" src="./assets/sofa.jpg" alt="sofá">
@@ -34,7 +34,7 @@
         </div>
     </div>
     <script>
-        function tete() {
+        function toggle() {
             document.documentElement.classList.toggle('animated');
         }
     </script>
